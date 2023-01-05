@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 # Excel Data files
 *.xlsx
+# Client Logo files
+Image001.png
