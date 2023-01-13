@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\GitRepository\FluentEmailer\FluentEmailer.LJShole\FluentEmailer.LJShole.csproj" />
+    <Reference Include="FluentEmailer.LJShole">
+      <HintPath>..\FluentEmailer\FluentEmailer.LJShole\bin\Debug\netstandard2.0\FluentEmailer.LJShole.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Update="ClaySysGMC.xlsx">
